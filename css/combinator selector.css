@@ -1,0 +1,23 @@
+/* descendant selector */
+.container1 h1{
+    background-color: skyblue;
+}
+
+/* direct child selector */
+
+.container1 > h1{
+    color: red;
+}
+
+/* this is adjacent sibiling */
+
+
+.container2 > #p1 + p{
+    background-color: yellow;
+}
+
+/* general sibiling*/
+
+.container2 > #p2 ~ p{
+    background-color: aqua;
+}

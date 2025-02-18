@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 20x solid red;
+    background-color: aqua;
+    background-image: url(https://imgs.search.brave.com/yLtyHiE5wk-G_5n3VnTEJy9GiyUTai9Ev2VO8mGE5W4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5UUmhPRFEw/TTJNdE5EVmpZUzAw/WmpWakxXSTVabUl0/TVRnNE5HSTRNRFk1/WlRWalhrRXlYa0Zx/Y0dkZVFYVnlNVGN4/TXprME1qSUAuanBn);
+    background-repeat: no-repeat;
+
+    /*background-size: 100% 100%;*/
+
+    background-position: center center;
+}

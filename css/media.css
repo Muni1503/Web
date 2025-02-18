@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer >.inner{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid white;
+}
+
+@media (max-width:600px)
+{
+    .outer > .inner{
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width:600px)
+{
+    .outer{
+        background-color: black;
+    }
+}

@@ -1,0 +1,53 @@
+/* ! text color  */ 
+ 
+.menu > h1{ 
+    color: aqua; 
+} 
+ 
+ 
+/* !  text align */ 
+ 
+.container > p{ 
+    text-align: justify; 
+    /* text-align: right; */ 
+    /* text-align: center; */ 
+    /* text-align: left; */ 
+} 
+ 
+/* !  text decoration */ 
+ 
+.menu > a { 
+    text-decoration: none; 
+} 
+ 
+.menu > h1{ 
+    text-decoration: underline; 
+    /* text-decoration: overline; */ 
+    /* text-decoration-line: line-through; */ 
+ 
+    text-decoration-color: red; 
+    text-decoration-style: wavy; 
+} 
+ 
+/* !  text transform */ 
+ 
+.menu > h1{ 
+    text-transform: uppercase; 
+} 
+ 
+/* !  text spacing properties */ 
+ 
+ 
+.container > p{ 
+    text-indent: 35px; 
+    letter-spacing: 2px; 
+    word-spacing: 5px; 
+    line-height: 1.5rem; 
+} 
+ 
+ 
+/* ! text shadow */ 
+ 
+.container > h1{ 
+    text-shadow: -5px -5px 3px red; 
+}

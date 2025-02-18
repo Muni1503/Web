@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#section-2{
+    height: 100vh;
+    width: 100%;
+    /* border: 20x solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("./bat.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+}
+
+
+#section-1{
+    height: 100vh;
+    width: 100%;
+    /* border: 20x solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://imgs.search.brave.com/yLtyHiE5wk-G_5n3VnTEJy9GiyUTai9Ev2VO8mGE5W4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5UUmhPRFEw/TTJNdE5EVmpZUzAw/WmpWakxXSTVabUl0/TVRnNE5HSTRNRFk1/WlRWalhrRXlYa0Zx/Y0dkZVFYVnlNVGN4/TXprME1qSUAuanBn");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+#section-3{
+    height: 100vh;
+    width: 100%;
+    /* border: 20x solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://imgs.search.brave.com/VjkbuBfEduSZMXL1LbZxWYL2Owy7CwdeFQwOD_xUKZE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQw/Mzg4NzAwMS9waG90/by9iaW9mdWVsLWlu/ZmluaXR5LXNpZ24u/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PVNBWC1pdGdVV3lT/YnZNczN5X08yb2JH/U2FOa3QwUGYwR3BW/OUF2bWl4OUU9");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+#section-4{
+    height: 100vh;
+    width: 100%;
+    /* border: 20x solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("https://imgs.search.brave.com/k66xfFsDn4226GbnthVF689AaOz9iCM_dj2KKLTGdj0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9pbmZp/bml0aS12aXNpb24t/cWUtY29uY2VwdC1m/cm9udC10aHJlZS1x/dWFydGVycy0yLTY1/MzJhMWYzODllNWIu/anBnP2Nyb3A9MC43/NTJ4dzoxLjAweGg7/MC4xMjZ4dywwJnJl/c2l6ZT0zNjA6Kg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+section > div > h1{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-shadow: 0px 5px 10px black;
+}

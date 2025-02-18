@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.outer> .box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    
+}
+
+#box1{
+    transition: all 1s ease-in;
+}
+
+#box1:hover{
+    transform: translate(90vw);
+}
+
+
+#box2{
+    transition: all 1s ease-in-out;
+}
+
+#box2:hover{
+    transform: translate(90vw);
+}
+
+
+#box3{
+    transition: all 1s ease-out;
+}
+
+#box3:hover{
+    transform: translate(90vw);
+}
+
+
+#box4{
+    transition: all 1s linear;
+}
+
+#box4:hover{
+    transform: translate(90vw);
+}

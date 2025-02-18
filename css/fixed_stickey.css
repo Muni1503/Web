@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    color: white;
+    top: 0;
+}
+
+main{
+    height: 500px;
+    background-color: blue;
+}
+section{
+    height: 500px;
+    background-color: brown   
+}
+
+.menu{
+    background-color: green;
+    height: 400px;
+}
+
+footer{
+    height: 500px;
+    background-color: blueviolet;
+}
+
+section > button{
+    position: sticky;
+    top: 70px;
+}

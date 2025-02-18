@@ -1,0 +1,45 @@
+.menu > p::first-letter{
+    font-size: 56px;
+}
+
+.menu > p::first-line{
+    background-color: yellow;
+}
+
+::selection{
+    background-color: maroon;
+   
+}
+
+.menu>ul>li::marker{
+    color: violet;
+}
+
+/* combining psedoclass and psedoelement*/
+
+.menu > .btn:hover::first-letter{
+    font-size: 56px;
+}
+
+.menu > h1::after{
+    content: "*";
+    color: red;
+    font-size: 56px;
+}
+
+.menu > p::before{
+    content: "*";
+    color: brown;
+    font-size: 56px;
+}
+
+/* attribute selector */
+
+/*
+.a[href]{
+    color: green;
+}*/
+
+a[target="_blank"]{
+    color: red;
+}

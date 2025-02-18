@@ -1,0 +1,61 @@
+website for the color palettes:
+
+color hunt 
+coolers
+
+website for remove background
+
+remove bg
+
+* colors:
+
+types of color values:
+
+1. rgb (red, blue, green)
+2. rgba (red, green, blue, alpha).
+3. hsl (hue, saturation, lightness).
+4. hsla (hue, saturation, lightnesss, alpha).
+5. hexadecimal (#00ff00).                // ff means value 16.
+
+RGB:
+
+- RGB color specified with the rgb() function.
+- syntax: rgb (red, green, blue)
+- each parameter (red, green, blue) defines the, intensity of the color and can be an integer between 0 and 255 or a percentage value (from 0% to 100%)'
+
+
+
+RGBA:
+
+- RGBA color values are an extension of RGB color values with an alpha, channel which specific the opacity of the object.
+- an RGBA color is specified with rgba() function.
+- syntax: rgba (red, green, blue, alpha).
+- the alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+
+
+HSL:
+
+- HSL stands for hue, saturation, and lightness and represents a cylindrical - coordinate represents of color.
+- an HSL color values is specified with hsl() function.
+
+- syntax: hsl (hue, saturation, lightness).
+- hue is a degree on the color wheel (from 0 to 360). 0 is red , 120 is green, 240 is blue.
+- saturation is percentage value, 0% means a shade of gray and 100% is the full color.
+- lightness is also a percentage, 0% is black, 100% is white.
+
+
+HSLA:
+
+- HSLA color value are an extention of hsl color value with an alpha, channel which specifics the opacity of the object.
+- an HSLA color value is specified with hsla() function. 
+- syntax: hsla (hue, saturation, lightness, alpha).
+- the alpha parameter is a number between 0.0 (fully transparent) and 1.0 (fully opaque).
+
+
+HEXADECIMAL COLOR:
+
+- a hexadecimmal color is specified with: #RRGGBB, where the RR (red), GG (green), BB (BLUE) hexadecimal integer specify the components of the color. all values must be between 00 and FF.
+
+HEXADECIMAL color with TRANSPARENCY:
+
+- a hexadecimal color is specified with: #RRGGBB, to add two additional digit because 00 and FF.

@@ -1,0 +1,60 @@
+            transition
+
+The 'transiton' properly in css is used to create smooth animations when changing the properties of an element. it allow you to control the speed of these properly changes over a specified duration, rather than having them occur instantaneously.
+
+
+syntax:
+
+transition: property duration timing-function delay;
+
+
+components of a transition
+
+1. "property"
+
+"Description": specifies the css property that the transition effect is applied to (e.g., 'width', 'height', 'background', etc...).
+
+special values: 'all' applies the transition to all changeable properties 
+
+
+example:
+
+transition: background-color 0.5s ease;
+
+
+2. duration:
+
+ "description": specifies the lenght of time the transition takes to complete. the duration is defined in seconds ('s') or milliseconds ('ms')
+
+
+ example:
+
+ transition: background-color 2s;
+
+ 3. timing-function:
+
+ define the speed curve of the transition. it controls hoe the intermediate state of the transition are calculated.
+
+
+ common values:
+
+ - 'ease' : starts slow, then fast, then ends slow (default value).
+ - 'linear' : constant speed from start to end.
+  - 'ease-in' : start slow, then fast.
+   - 'ease-out' : start fast, then slow.
+    - 'ease-in-out' : starts slow, speeds up, then slow down.
+
+
+
+example:
+
+transition: width 2s ease-in;
+
+
+4. delay:
+
+description: specifies a delay before the transition starts. this can be in seconds ('s') or milliseconds ('ms").
+
+example:
+
+transition: height 0.5s

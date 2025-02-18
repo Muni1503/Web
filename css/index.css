@@ -1,0 +1,48 @@
+*{
+    background-color: skyblue;
+    color: black;
+}
+
+
+
+/* this is tag name selector*/
+
+/* h1{
+    color: maroon;
+} */
+
+/* this id selector */
+
+/* #heading1{
+    background-color: violet;
+}
+
+#heading2{
+    background-color: cyan;
+} */
+
+/* this is class selector */
+
+/* .c1{
+    background-color: gray;
+}
+
+.c2{
+    background-color: yellowgreen;
+}
+
+
+#id1{
+    color: blue;
+}
+#id2{
+    color: coral;
+} */
+
+/* group selector*/
+
+/*
+#p1,.heading3{
+    color: tan;
+}
+    */

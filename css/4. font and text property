@@ -1,0 +1,150 @@
+
+                        font property
+
+font properties:
+
+
+1. `font-style`:
+
+ - specifies the style of the font.
+ - value: `normal`, `italic`, `oblique`.
+
+ example: `font-style: italic;`.
+
+
+ 2. `font-weight`:
+
+ - specifiies the weight (or boldness) of the font.
+ - values: `normal`,`bolder`,`lighter`, or numeric values (`100` to `900`).
+
+ example: `font-weight: bold;`.
+
+
+3. `font-size`
+
+ - specifies the size of the font.
+ - values: absolute sizes (`px`,`mm`,`cm`), relative sizes (`em`,`rem`,`%`), or keywords (`small`, `medium`, `large`,etc).
+
+ example: `font-size:16px;`.
+
+
+ 4. `font-family`
+
+ - specifies a prioritized list of font family names and/or generic family names.
+ - values: font-family names (e.g., `"Arial"`,`georgia`) and generic families (`serif`, `sans-serif`, `monospace`).
+
+ example: `font-family: "Arial",sans-serif;`.
+
+ note: we can add google fonts also. (google fonts)
+
+
+                                         text property
+
+> text properties in CSS are used to control the appearance and formatting of text on a webpage.
+
+> these properties allow you to modify various aspects of the text, such as its color, size, spacing, alignment, decoration, and transformation.
+
+
+text alignment:
+
+`text-align`
+
+ - aligns the text within an element.
+ - values: `left`,`right`,`center`,`justify`,`start`, `end`.
+
+ example: `text-align: center:`.
+
+
+ text decoration:
+
+ `text-decoration`
+
+ -specifies the decoration added to text 
+ -values: `none`, `underline`, `overline`,`line-through`.
+ 
+ -example: `text-decoration: underline;`.
+
+
+
+ 'text-decoration-line'
+
+ -sets the typs of text decoration.
+ -values: `none`, `underline`, `overline`, `line-through`, `blink`.
+
+ -example: `text-decoration-line: line-through;`.
+
+
+ `text-decoration-color`
+
+ - sets the type of text decoration.
+ - values: any color value (`#ff0000`,`rgb(255,0,0)`,`blue`,etc.).
+
+ example: `text-decoration-color: red;`.
+
+
+
+ 'text-decoration-style'
+
+ - sets the styles of the decorations.
+ - values: `solid`,`double`,`dotted`,`dashed`, `wavy`.
+
+ example: `text-decoration-style: dashed;`.
+
+
+
+ text indentation:
+
+ `text-indent`
+
+ - specifies the indentation of the first line in a text block.
+ - values: length values (`px`,`em`,`%`,etc.).
+
+ example: `text-indent: 20px;`.
+
+
+
+ text transformation:
+
+ `text-transform`
+
+ - controls the capitalization of text.
+ - values: `none`,`capitalize`,`uppercase`,`lowercase`.
+
+ example: `text-transform: uppercase;`.
+
+
+ text shadow:
+
+ `text-shadow`
+
+ - adds shadow to text.
+ - values: `none` or a combination of `h-shadow`,`v-shadow`,`blur-radius`, and `color`.
+
+ example: `text-shadow: 2px 2px 5px gray;`.
+
+
+
+ letter and word spacing:
+
+ `letter-spacing`
+
+ - sets the spacing between characters.
+ - values: length values (`px`,`em`,etc.).
+
+ example: `letter-spacing: 2px;`.
+
+
+`word-spacing`:
+
+- sets the spacing between words.
+- values: length values (`px`,`em`,etc.).
+
+example: `word-spacing: 4px;`.
+
+
+`line-height`:
+
+- the line-height property is used to specify the space between lines.
+- a line-height of 1.5 means the space between lines is 1.5 times the font size.
+
+example: line-height: 0.8;

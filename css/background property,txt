@@ -1,0 +1,24 @@
+background-image:
+
+- sets an image as the background of an elements.
+
+
+
+4. background -positions:
+
+- specifies the initial position of the background image.
+- values can be keywords ('top','bottom','left','right','center'), or coordinates ('50% 50%' or '10px 20px").
+
+syntax:
+
+background-position: 100% 100%;
+
+
+5. background-size:
+
+- specifies the size of the background images.
+- values:
+  - 'auto': defalut, keeps the original size.
+  - 'cover': scales the images to cover the entire elements (image may be cropped).
+  - 'contain': scales the images to fit within the elements (images won't be cropped).
+  - specific sizes ('100px 50px'  or '50% 50%').

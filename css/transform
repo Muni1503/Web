@@ -1,0 +1,29 @@
+transform
+
+definition:
+
+the 'transform' property in css allow you to apply various transformations to an element, such as moving, rotating, scalling, or skewing it.
+
+transform functions:
+
+1. translate():
+
+- moves the elements from its current position.
+- 'translate(x,y)' moves the element horizontally by 'x' and vertically by 'y'.
+
+- example: 'transform: translate(50px, 100px);' (moves the elemnets 50px to the right and 100px down).
+
+2. rotate():
+
+- rotate the elements around a fixed point (the centre by default).
+
+- 'rotate(angle)' rotates the elements by the specified 'angle' in degrees.
+
+- example: 'transform: rotate(45deg);' (rotates the element 45 degrees clockwise).
+
+3. scale():
+
+- resize the elements.
+- 'scale(x,y)' scales the elements by 'x' horizontally and 'y' vertically.
+
+- example: 

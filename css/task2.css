@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, blue, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner{
+    height: 500px;
+    width: 500px;
+    border-radius: 4%;
+    background-image: linear-gradient(to left, red, yellow);
+    position: relative;
+}
+
+.outer > .inner > .img1{
+    position: absolute;
+    bottom: 10px;
+}
+

@@ -1,0 +1,42 @@
+what is units
+
+a unit is a standard for the measurement of physical quantities of the same kind
+
+
+types of units 
+
+1. absolute unit 
+
+the absolute length units are fixed and a length expressed in any of these will appear as exactly that size
+
+2. relative units
+
+the relative length units specify a length relativeto another length proeprty.
+
+types of absolute units
+
+1. mm(milli meter)
+2. cm(centi meter)
+3. px(pixel)
+
+types of relative units
+
+1. %
+
+relative to the parent element
+
+2. vw
+
+viewport width: one vw is equal to 1% of the width of the viewprot (the browser window size)
+
+3. vh
+
+viewport height: one vh is equal to 1% of the height of the viewport.
+
+4. em
+
+relative to the font size of the element: one em is equal to the current font size of the element. if the font size of the elament is 16px, then 1em equals 16px. the size is relative to the parent elament's font size if used in other properties.
+
+5. rem 
+
+relative to the font size of the root elements (typically <html>): one rem is equal to the font size of the root element. this provides a consistent measurement across the entire documents.

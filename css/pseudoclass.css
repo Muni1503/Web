@@ -1,0 +1,81 @@
+.container > .btn{
+    background-color: red;
+}
+
+/* this is hover pseudo class*/
+.container .btn:hover{
+    background-color: greenyellow;
+}
+
+div > .btn {
+    background-color: violet;
+}
+
+ /* this is active pseudo class*/
+.container .btn:active{
+    background-color: yellow;
+    color: white;
+}
+
+/* this is active link class*/
+
+.container > a:link{
+    color: blue;
+}
+
+/* this is visited pseudo class*/
+.container > a:visited {
+    color: green;
+}
+
+/* this is last-child pseudo class */
+div > p:last-child{
+    background-color: yellow;
+}
+
+/*this is first-child pseudo class*/
+div > p:first-child{
+    background-color: yellow;
+}
+
+.authentication p{
+    background-color: grey;
+}
+
+/* > = it represent the direct child.*/
+
+
+.authentication > .p:first-child{
+    background-color: brown;
+}
+
+
+/*it used to select the n child*/
+.container > ul > li:nth-child(5){
+    background-color: maroon;
+}
+
+/*it used to select the even */
+.container > ul > li:nth-child(2n){
+    background-color: aqua;
+}
+
+/* .container > ul > li:nth-child(8){
+    background-color: maroon;
+}*/
+
+/*it used to select the odd */
+.container > ul > li:nth-child(2n+1){
+    background-color: maroon;
+}
+
+/*first of type example*/
+.authentication > p:first-of-type {
+    background-color: aqua;
+
+}
+
+/*last of type example*/
+.authentication > p:last-of-type {
+    background-color: purple;
+}

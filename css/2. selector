@@ -1,0 +1,270 @@
+
+inline css:
+
+> it is the way of writing the css in same line.
+> for this we need style attribute.
+
+internal css:
+
+> it id the way of writing the css in same html file by using <style> tag.
+
+
+> when we will apply inline and internal css on same elements.
+> inline css will be applied.
+
+
+syntax of selector:
+
+selectorName{
+    propertyName:value;
+    propertyName:value
+    .
+    .
+    .
+    propertyName:value;
+}
+
+example:
+
+p{
+    color:blue;
+    font-size:20px;
+}
+
+
+external css:
+
+> here we are writing our css code in seperate css file.
+> for creating css file we need .css extention.
+> then we have to link our css file with our html file.
+> for that we need <link>tag.
+> in <link> tag we have two attributes.(rel,href)
+
+
+<link rel ="stylesheet" href="./style.css">
+
+
+
+> if we apply inline, internal and external css on the same elements. the inline css will be applyed.
+> internal and external css has same priority. which one will be at the end, that will be applyed.
+
+
+
+types of selector:
+
+1. simple selector.
+2. combinator selector.
+3. pseudo class selector.
+4. pseudo element selector.
+5. attribute selector.
+
+
+1. simple selector:
+
+tagname 
+Grouping(,)
+Universal(*)
+id Name(#)
+ClassName(.)
+
+
+
+tagName:
+
+> to target the element based on tagName itself we have to use tagName selector.
+> the symbol was the tagName itself.
+
+Grouping:
+
+> to target multiple element at a time we have to use a grouping selector.
+> whenever we need to pass similar property for multiple elements we can use a grouping selector.
+> the symbol used to combine all element is comma(,)
+
+
+Universal:
+
+> it will target all the elements in the document including body tag too.
+> the symbol used is asterisk(*).
+
+
+idName:
+
+> to target the elements uniquely we have to use an idName.
+> in css idName can be duplicated also there is no problem.
+> but once we moved to advanced languages, repetition of idName will not work. so it is highly recommended not to use it from now on.
+> the symbol used is hash(#).
+
+
+ClassName:
+
+> to target the specific element on the basis of ClassName we have to use ClassName.
+> class attributes allows multiple identifier names in the same attribute.
+> class names can be repetitive also.
+> the symbol used is dot(.).
+
+
+
+                        combinator selector:
+
+
+> it is combinator of 2 simple selectors.
+> based on the relation between 2 element the css will target the elements.
+they are:
+
+1. Decendent selector().
+2. Direct Child selector(>).
+3. Adjacent Sibiling selector(+).
+4. General Sibiling selector(~).
+
+
+
+Decendent selector:
+
+> it will target all the children, grandchildren, great grandchildren and so on.
+> the symbol used is space().
+
+
+Direct child selector:
+
+> it will target only the children but not grandchildren, great grandchildren and so on.
+> the symbol used is greater than(>).
+
+
+Adjacent Sibiling selector:
+
+> it will target only the first Sibiling of the element.
+> the symbol used is plus(+).
+
+
+General Sibiling selector:
+
+> it will target all the sibiling of the element.
+> the symbol used is (~).
+
+
+                        pseudo classes selector:
+
+
+hover:
+
+> the `:hover` pseudo-class applies when the user designates an element (with some pointing device), but does not activate it. typically used to change the appearance of a link when the user hovers over it.
+
+
+link:
+
+> the `:link` pseudo-class applies to links that have not yet been visited.
+
+
+active:
+
+> the `:active` pseudo-class applies during the period in which the element is being activatd (e.g., between the times the user presses the mouse button and release it).
+
+
+
+visited:
+
+> the `:visited` pseudo-class applies once the link has been visited by the user.
+
+
+first-child:
+
+> the `:first-child` pseudo-class applies to the first child of a specified element.
+
+
+last-child:
+
+> the `:last-child` pseudo-class applies to the last child of a specified element.
+
+
+nth-child():
+
+> the `:nth-child()` pseudo-class matches elements based on their position in a group of sibilings. it takes a single arguments that can be a number, keyword, or formula. (an+b)
+
+
+first-of-type:
+
+> the `:first-of-type` pseudo-class applies to the first element of its type within a parent.
+
+
+last-of-type:
+
+> the `:last-of-type` pseudo-class applies to the element of its type within a parent.
+
+
+
+                    pseudo-elements selector:
+
+
+pseudo-element in css are used to style specific parts of an element.
+
+
+::before
+
+the `::before` pseudo-element can be used to insert content before the content of an element. it is often used to add decorative content or icons.
+
+syntax:
+
+selector::before{
+    content:"content";                     [required property]
+
+    [other css property]
+}
+
+
+
+::after
+
+the `::after` pseudo-element can be used to insert content after the content of an element. it is often used to add decorative content or to clear floats.
+
+
+syntax:
+
+selector::after {
+    content:"content";                     [required property]
+
+    [other css property]
+}
+
+
+:: first-line
+
+the `::first-line` pseudo-element applies styles to the first line of a block-level element. it is useful for creating drop caps or empathasizing the first line of text.
+
+
+::first-letter
+
+the `::first-letter` pseudo-element applies styles to the first letter of a block-level element. it is often used to create drop caps.
+
+
+::selection
+
+the `::selection` pseudo-element applies styles to the portion of a document that has been highlighted by the user (e.g., selected with the mouse).
+
+
+::marker
+
+the `::marker` pseudo-element is used to style the marker box of a list item (i.e., the bullet points or numbers).
+
+
+combining pseudo-element with pseudo-classes:
+
+we can also combine pseudo-elements with pseudo-classes for more advanced styling.
+
+example:
+
+p::hover::first-letter {
+    color: red;
+}
+
+
+
+                        Attribute selectors
+
+
+it will target the elements based on attribute name.
+instead of creating new id names and class names we can use existing attributes.
+
+
+1. [attr]: represents elements with an attribute name of attr.
+2. [attr==value]: represents element with an attributename of attr whose value is exactly value.
+
