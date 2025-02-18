@@ -1,0 +1,33 @@
+TYPE COERCION:
+
+Type coercion in javascript refers to the automatic or implicit conversation of values from one data type to another. this often happens in operations that involve different types of values, such as strings, numbers, or booleans. javascript tries to make sense of these operations by converting values to a common type.
+
+examples: 
+
+
+1 > STRING COERCION:
+
+When we use the operator with a string and a number, the number is converted to a string.
+
+example:
+
+let result = '5' + 10;
+console.log(result);  // "510" (number 10 is converted to string "10")
+
+
+
+false value
+
+1. 'false'
+
+2. '0'
+
+3. '-0'
+
+4. '""'
+
+5. 'null'
+
+6. 'undefined'
+
+7. 'nan'
